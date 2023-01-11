@@ -1,0 +1,57 @@
+*{
+
+    margin:0;
+    padding:0;
+}
+body,html{
+    background:url(grifi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin:auto;
+}
+
+main{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    color:white;
+}
+
+section{
+    position:absolute;
+    background-color:rgba(34, 33, 33, 0.989);
+    width:250px;
+    height:500px;
+    border-radius:20px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    overflow: hidden;/*tudo qui ficar de fora vai ficar escondido*/
+    box-shadow:0px 0px 4px 2px rgba(0, 0, 0, 0.667);
+
+
+}
+
+section#login > div#img{
+    display:block;
+    background: gray url(grifi.jpg)no-repeat;
+    background-size: cover;
+    height: 200px;
+    box-shadow: 0px 2px 7px 1px rgba(255, 255, 255, 0.213);
+    transition: width 0.3s, height 0.3s;
+    
+    
+}
+
+section#login > div#form{
+    display:block;
+    padding:10px;
+}
+
+div#form p{
+    text-align: justif;
+    mar
+    
+    
+}
