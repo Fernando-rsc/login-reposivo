@@ -21,7 +21,7 @@ main{
 section{
     position:absolute;
     background-color:rgba(34, 33, 33, 0.989);
-    width:250px;
+    width:300px;
     height:500px;
     border-radius:20px;
     top:50%;
@@ -49,9 +49,16 @@ section#login > div#form{
     padding:10px;
 }
 
-div#form p{
-    text-align: justif;
-    mar
-    
-    
+div#form{
+    align-items: center;
+}
+div#form h1{
+    text-align: center;
+}
+.top{
+    margin: -1px;
+}
+
+.campo{
+    margin:10px;
 }
